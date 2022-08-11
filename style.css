@@ -1,0 +1,157 @@
+/* GENERAL STYLE */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: block;
+   
+   
+}
+
+:root{
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+
+}
+
+/* Applying style */
+
+main{
+    width: 375px;
+    height: 100vh;
+    background: var(--VeryDarkBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto
+  
+}
+
+
+.box-container{
+    width:90%;
+    height:400px;
+    background: var(--DarkBlue);
+    border-radius: 15px;
+    position: relative;
+    
+    
+}
+
+
+#star{
+
+    background-color:rgba(241, 241, 243, 0.027);
+    padding: 15px;
+    border-radius: 50%;
+    margin: 25px 25px 10px 25px;
+    
+}
+.feedback{
+    margin:0px 25px 35px 25px;
+    
+}
+
+.feedback h1{
+    color: var(--White);
+    margin-bottom: 10px;
+    
+
+}
+.feedback p{
+    color:var(--LightGrey);
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+.circles{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 25px 25px 25px;
+    gap: 0px;
+}
+.circles .circle{
+    color: var(--LightGrey);
+    background-color: rgba(241, 241, 243, 0.027);
+    border-radius: 50%;
+    height: 40px;
+    width: 45px;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    padding-top: 5px;
+    font-size: 00.85rem;
+    font-weight: 600;
+}
+.circles .circle:hover{
+    background-color: rgba(240, 234, 234, 0.76);
+}
+.circles .circle:active{
+    background-color: var(--Orange);
+    color: var(--White);
+}
+.button-submit{
+    width: 18rem;
+    height:2.8rem ;
+    margin: 5px 29.5px;
+    
+    border-radius: 25px;
+    background-color: var(--Orange);
+    color: var(--White);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border:none;
+    
+}
+.button-submit:active{
+    background-color: var(--White);
+    color: var(--Orange);
+}
+
+/* Thankyou-Design */
+
+.rating-div{
+    width: 60%;
+    height: 2.5rem;
+    background: rgba(241, 241, 243, 0.027);
+    color: var(--Orange);
+    border:none;
+    border-radius: 20px;
+    display: flex;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#thankyou{
+    padding: 40px 87px 30px 87px;
+}
+.feedback2{
+    margin-top: 30px;
+    
+    
+}
+.feedback2 h1{
+    text-align:  center;
+}
+.feedback2 p{
+    text-align: center;
+}
+
+
