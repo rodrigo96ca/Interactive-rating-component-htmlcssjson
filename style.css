@@ -28,6 +28,7 @@ body{
 
 }
 
+
 /* Applying style */
 
 main{
@@ -97,12 +98,11 @@ main{
     font-size: 00.85rem;
     font-weight: 600;
 }
-.circles .circle:hover{
-    background-color: rgba(240, 234, 234, 0.76);
-}
-.circles .circle:active{
+
+.circle:hover{
     background-color: var(--Orange);
     color: var(--White);
+    cursor: pointer;
 }
 .button-submit{
     width: 18rem;
@@ -121,6 +121,11 @@ main{
 .button-submit:active{
     background-color: var(--White);
     color: var(--Orange);
+    
+}
+.button-submit:hover{
+    cursor: pointer;
+    
 }
 
 /* Thankyou-Design */
@@ -153,5 +158,35 @@ main{
 .feedback2 p{
     text-align: center;
 }
+
+.hide{
+    display:none;
+    
+}
+.circle.activar{
+    
+    background-color: rgba(245, 238, 236, 0.623);
+    color: var(--MediumGrey);
+    
+  }
+.score-number{
+    margin: 0 5px;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 376px) {
+    main{
+        width: 100%;
+    }
+    .box-container{
+
+        width: 340px;
+  }
+   }
 
 
